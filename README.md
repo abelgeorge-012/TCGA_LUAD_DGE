@@ -2,6 +2,8 @@
 
 # Differential Gene Expression Analysis in Lung Adenocarcinoma (LUAD)
 
+Project by Abel George and Laxmi CM
+
 This repository contains an end-to-end RNA-seq analysis pipeline for identifying differentially expressed genes (DEGs) in **lung adenocarcinoma (LUAD)** using data from **The Cancer Genome Atlas (TCGA)**. The analysis was implemented in R and includes downstream functional enrichment and protein–protein interaction (PPI) network analysis using STRING and Cytoscape.
 
 ## 📁 Project Structure
@@ -90,12 +92,4 @@ This repository contains an end-to-end RNA-seq analysis pipeline for identifying
 ```r
 source("DGE.R")
 
-The script will:
-Load and normalize TCGA-LUAD data
-Perform DEG analysis with DESeq2
-Save DEGs and plots
-Conduct GO/KEGG enrichment
-Export STRING PPI data
 
-👩‍💻 Author
-Project by Abel George and Laxmi CM
